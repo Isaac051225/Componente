@@ -33,10 +33,14 @@ Actividad3/
 Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar los archivos de la librería e incluirlos en tu documento HTML.
 
 **Incluir el css**
+```html
 * <link rel="stylesheet" href="css/style.css">
+```
 
 **Incluir el JavaScript**
+```html
 * <script src="js/toast.js"></script>
+```
 
 ## Uso y ejemplos de código
 
