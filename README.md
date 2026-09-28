@@ -32,12 +32,11 @@ Actividad3/
 ## Instalación
 Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar los archivos de la librería e incluirlos en tu documento HTML.
 
-<!-- 1. Incluir el CSS -->
-<link rel="stylesheet" href="css/style.css">
+**Incluir el css**
+*<link rel="stylesheet" href="css/style.css">
 
-
-<!-- 2. Incluir la lógica de JavaScript -->
-<script src="js/toast.js"></script>
+**Incluir el JavaScript**
+*<script src="js/toast.js"></script>
 
 ## Uso y ejemplos de código
 
@@ -89,5 +88,16 @@ mostrarToast(
     </script>
 </body>
 ```
+
+## Capturas de pantalla
+### Advertencia
+![Consola](img/advertencia.png)
+
+### Error
+![Formulario_Index](img/error.png)
+
+### Exito
+![Registro_fallido](img/exito.png)
+
 
 
