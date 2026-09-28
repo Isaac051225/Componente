@@ -34,12 +34,12 @@ Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar 
 
 **Incluir el css**
 ```html
-* <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/style.css">
 ```
 
 **Incluir el JavaScript**
 ```html
-* <script src="js/toast.js"></script>
+ <script src="js/toast.js"></script>
 ```
 
 ## Uso y ejemplos de código
@@ -102,6 +102,14 @@ mostrarToast(
 
 ### Exito
 ![Registro_fallido](img/exito.png)
+
+
+## Video promocional
+
+
+
+
+## Enlaces del proyecto
 
 
 
