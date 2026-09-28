@@ -105,11 +105,12 @@ mostrarToast(
 
 
 ## Video promocional
-
-
+https://youtu.be/91dgR2txVH0?si=J2EBbm7VOMs_prw5
 
 
 ## Enlaces del proyecto
+* **Reposiroio:** https://github.com/Isaac051225/Componente
+* **GitHub Pages**: https://isaac051225.github.io/Componente/
 
 
 
