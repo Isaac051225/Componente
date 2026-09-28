@@ -31,8 +31,10 @@ Actividad3/
 
 ## Instalación
 Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar los archivos de la librería e incluirlos en tu documento HTML.
+
 <!-- 1. Incluir el CSS -->
 <link rel="stylesheet" href="css/style.css">
+
 
 <!-- 2. Incluir la lógica de JavaScript -->
 <script src="js/toast.js"></script>
