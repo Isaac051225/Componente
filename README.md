@@ -1,9 +1,9 @@
 # Toast JS - Librería de Notificaciones Reutilizables
 
-1. Portada
-Autor: Isaac Emmanuel Diaz Martinez
-Nombre del componente: Toast JS
-Materia: Programación web
+## Portada
+* **Autor:** Isaac Emmanuel Diaz Martinez
+* **Nombre del componente:** Toast JS
+* **Materia:** Programación web
 
 ## ¿Qué problema resuelve?
 Cuando estás haciendo una página web, las alertas normales que trae el navegador aveces no nos pueden gustar,
@@ -12,13 +12,14 @@ Este componente resuelve exactamente eso: crea notificaciones flotantes modernas
 le avisan al usuario si algo salió bien, mal o si le falta llenar un dato, y se quitan solas después de unos segundos.
 
 ## Estructura del proyecto
+```text
 Actividad3/
 │
 ├── README.md
 ├── index.html
 │
 ├── css/
-│   └── estilos.css
+│   ├── estilos.css
 │   └── style.css
 │
 ├── js/
@@ -26,14 +27,14 @@ Actividad3/
 │
 └── img/
     └── Capturas de pantalla
-
+```
 
 ## Instalación
 Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar los archivos de la librería e incluirlos en tu documento HTML.
-<!-- 1. Inlcuir CSS -->
+<!-- 1. Incluir el CSS -->
 <link rel="stylesheet" href="css/style.css">
 
-<!-- 3. Incluir JavaScript -->
+<!-- 2. Incluir la lógica de JavaScript -->
 <script src="js/toast.js"></script>
 
 ## Uso y ejemplos de código
