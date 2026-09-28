@@ -41,3 +41,53 @@ Para utilizar este componente en cualquier proyecto web, solo necesitas enlazar 
 
 ## Uso y ejemplos de código
 
+### 1. Notificación de éxito al iniciar sesión
+```javascript
+mostrarToast(
+    "¡Bienvenido de nuevo, usuario!",
+    "exito"
+);
+```
+
+### 2. Notificación de error al iniciar sesión
+```javascript
+mostrarToast(
+    "Contraseña incorrecta, intenta de nuevo.",
+    "error"
+);
+```
+
+### 3. Notificación de advertencia
+```javascript
+mostrarToast(
+    "Por favor, llena todos los campos.",
+    "advertencia"
+);
+```
+
+### 3. Ejemplo integrado en un login
+```javascript
+<script src="js/toast.js"></script>
+    <script>
+        function probarLogin() {
+            const user = document.getElementById('usuario').value;
+            const pass = document.getElementById('password').value;
+            
+            // 1. Si falta algún campo
+            if (user === "" || pass === "") {
+                mostrarToast('Por favor, llena todos los campos', 'advertencia');
+            } 
+            // 2. Si la contraseña es incorrecta
+            else if (pass !== "12345") {
+                mostrarToast('Contraseña incorrecta, intenta de nuevo', 'error');
+            } 
+            // 3. Si todo está bien
+            else {
+                mostrarToast('¡Bienvenido de nuevo, ' + user + '!', 'exito');
+            }
+        }
+    </script>
+</body>
+```
+
+
